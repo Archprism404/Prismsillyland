@@ -1,0 +1,38 @@
+#welcome{
+    text-align: center;
+    color:aquamarine;
+    font-family: arial, sans-serif;
+    font-size: 3rem;
+}
+body {
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertical center */
+    align-items: center;     /* Horizontal center */
+    margin: 0;              /* Remove default margin */
+    background-color: #121212; /* Keep your background */
+}
+a {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #000;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    transition: background 0.2s, color 0.2s;
+    margin-top: 16px;
+}
+
+a:hover {
+    background: aquamarine;
+    color: #000;
+}
+#desc{
+    color:orangered;
+    font-family: arial, sans-serif;
+    font-size: 1.2rem;
+}
